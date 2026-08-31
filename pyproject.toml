@@ -1,0 +1,19 @@
+[project]
+name = "class-7-build-and-deploy-remote-mcp-servers"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "hamzabinnasir", email = "myselfhamzanasir@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=3.4.7",
+]
+
+[project.scripts]
+class-7-build-and-deploy-remote-mcp-servers = "class_7_build_and_deploy_remote_mcp_servers:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"

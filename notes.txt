@@ -1,0 +1,5 @@
+________________________ ** Remote MCP Servers ** ________________________
+Remote MCO servers are the servers that are running on the different machine and they have high computational power as compared to local servers, they are running on different platforms with the help of internet so they are a little bit comparatively slow a compared to local servers but they can also serve to muliple clients at the same time
+
+from coding point of view, only a little bit changes otherwise same
+we can deploy our remote fastMCP server to fastMCP cloude
