@@ -16,7 +16,7 @@ from fastmcp import FastMCP
 
 BASE_DIR = Path(__file__).resolve().parent
 
-DB_PATH = BASE_DIR / "expenses.db"
+DB_PATH = Path("/tmp/expenses.db")
 CATEGORIES_PATH = BASE_DIR / "categories.json"
 
 
