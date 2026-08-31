@@ -54,13 +54,7 @@ _____ ** Diagram ** _____
 │   Claude Desktop    │
 │      (Client)       │
 └─────────────────────┘
-
-
-   "expense-tracker": {
-      "command": "C:\\Users\\mysel\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\uv.exe",
-      "args": [
-        "run",
-        "--with", "fastmcp",
-        "D:\\Courses\\Generative_Ai_Complete_Course\\Model_Context_Protocol_(MCP)\\Class_7_Build_and_Deploy_Remote_MCP_Servers\\proxy_server.py"
-      ]
-    },
+_________________________________________________________________________________________
+** My Claude Desktop Proxy Api Key **
+CLAUDE_DESKTOP_PROXY="fmcp_HjkKgX3maRcoWrO660SrRubsNam_4oNeNnnLtQ0aG5E"
+##
