@@ -4,7 +4,14 @@ Remote MCO servers are the servers that are running on the different machine and
 From coding point of view, only a little bit changes otherwise same
 We can deploy our remote fastMCP server to "fastMCP cloude perfect horizon"
 _________________________________________________________________________________________
-** Note: I claude-desktop free plan, we cannot add remote server connectors because add custom connector button is not visible there in settings -> connectors -> Add Custom Connectors so we have a solution. Since we can connect local MCP Servers with Claude-Desktop so we add a proxy server (local server) between our claude-desktop (client) ann our remote MCP server and that particuar local proxy MCP Server will hep us to communicate to our remote MCP Server
+*** My Hosted Expense Tracker MCP Server Link ***
+Note: "I put calculator.py on gitgnore as I dont want my simple calculator server to be a remte server"
+Note: "Claude free plan gives only one custom connector to add"
+##
+https://normal-gray-dinosaur.fastmcp.app/mcp
+##
+_________________________________________________________________________________________
+** Note: In claude-desktop free plan gives only one custom connector to add so, we cannot add more then one remote server connectors because add custom connector button gets disable there in settings -> connectors -> Add Custom Connectors so we have a solution. Since we can connect local MCP Servers with Claude-Desktop so we add a proxy server (local server) between our claude-desktop (client) ann our remote MCP server and that particuar local proxy MCP Server will hep us to communicate to our remote MCP Server
 
 Claude Desktop (Client) -> Proxy MCP Server (Local Server) -> Remote Server
                         <-                                 <-
@@ -47,3 +54,13 @@ _____ ** Diagram ** _____
 │   Claude Desktop    │
 │      (Client)       │
 └─────────────────────┘
+
+
+   "expense-tracker": {
+      "command": "C:\\Users\\mysel\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\uv.exe",
+      "args": [
+        "run",
+        "--with", "fastmcp",
+        "D:\\Courses\\Generative_Ai_Complete_Course\\Model_Context_Protocol_(MCP)\\Class_7_Build_and_Deploy_Remote_MCP_Servers\\proxy_server.py"
+      ]
+    },
