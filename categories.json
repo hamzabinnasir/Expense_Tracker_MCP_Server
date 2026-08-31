@@ -1,0 +1,80 @@
+{
+  "categories": [
+    {
+      "category": "Food",
+      "subCategories": ["Groceries", "Restaurants", "Fast Food", "Coffee Shops", "Delivery", "Snacks", "Alcohol & Bars"]
+    },
+    {
+      "category": "Transport",
+      "subCategories": ["Fuel", "Public Transit", "Taxi & Rideshare", "Parking", "Vehicle Maintenance", "Vehicle Insurance", "Tolls"]
+    },
+    {
+      "category": "Rent",
+      "subCategories": ["Monthly Rent", "Security Deposit", "Late Fees"]
+    },
+    {
+      "category": "Utilities",
+      "subCategories": ["Electricity", "Water", "Gas", "Internet", "Mobile Phone", "Trash & Recycling"]
+    },
+    {
+      "category": "Housing",
+      "subCategories": ["Mortgage", "Home Insurance", "Property Tax", "Repairs & Maintenance", "Furniture", "Home Improvement"]
+    },
+    {
+      "category": "Health",
+      "subCategories": ["Doctor Visits", "Pharmacy", "Dental", "Vision", "Health Insurance", "Fitness & Gym", "Therapy"]
+    },
+    {
+      "category": "Entertainment",
+      "subCategories": ["Movies & Shows", "Streaming Subscriptions", "Games", "Events & Concerts", "Hobbies", "Books"]
+    },
+    {
+      "category": "Shopping",
+      "subCategories": ["Clothing", "Electronics", "Personal Care", "Gifts", "Household Items", "Online Shopping"]
+    },
+    {
+      "category": "Education",
+      "subCategories": ["Tuition", "Books & Supplies", "Courses & Certifications", "Student Loans"]
+    },
+    {
+      "category": "Travel",
+      "subCategories": ["Flights", "Hotels", "Vacation Activities", "Travel Insurance", "Visas & Documents"]
+    },
+    {
+      "category": "Insurance",
+      "subCategories": ["Life Insurance", "Home Insurance", "Health Insurance", "Vehicle Insurance"]
+    },
+    {
+      "category": "Savings & Investments",
+      "subCategories": ["Emergency Fund", "Retirement", "Stocks", "Mutual Funds", "Crypto"]
+    },
+    {
+      "category": "Debt",
+      "subCategories": ["Credit Card Payment", "Loan Payment", "Interest Charges"]
+    },
+    {
+      "category": "Business",
+      "subCategories": ["Office Supplies", "Software & Subscriptions", "Marketing", "Professional Services", "Travel & Client Meetings"]
+    },
+    {
+      "category": "Family & Kids",
+      "subCategories": ["Childcare", "School Fees", "Toys", "Baby Supplies", "Allowance"]
+    },
+    {
+      "category": "Pets",
+      "subCategories": ["Pet Food", "Vet Visits", "Grooming", "Pet Supplies"]
+    },
+    {
+      "category": "Charity & Donations",
+      "subCategories": ["Religious Donations", "Charity", "Gifts to Family"]
+    },
+    {
+      "category": "Taxes",
+      "subCategories": ["Income Tax", "Property Tax", "Other Taxes"]
+    },
+    {
+      "category": "Miscellaneous",
+      "subCategories": ["Bank Fees", "Subscriptions (Other)", "Uncategorized", "Lost/Stolen Items"]
+    }
+  ]
+}

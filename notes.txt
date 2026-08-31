@@ -1,5 +1,49 @@
 ________________________ ** Remote MCP Servers ** ________________________
 Remote MCO servers are the servers that are running on the different machine and they have high computational power as compared to local servers, they are running on different platforms with the help of internet so they are a little bit comparatively slow a compared to local servers but they can also serve to muliple clients at the same time
 
-from coding point of view, only a little bit changes otherwise same
-we can deploy our remote fastMCP server to fastMCP cloude
+From coding point of view, only a little bit changes otherwise same
+We can deploy our remote fastMCP server to "fastMCP cloude perfect horizon"
+_________________________________________________________________________________________
+** Note: I claude-desktop free plan, we cannot add remote server connectors because add custom connector button is not visible there in settings -> connectors -> Add Custom Connectors so we have a solution. Since we can connect local MCP Servers with Claude-Desktop so we add a proxy server (local server) between our claude-desktop (client) ann our remote MCP server and that particuar local proxy MCP Server will hep us to communicate to our remote MCP Server
+
+Claude Desktop (Client) -> Proxy MCP Server (Local Server) -> Remote Server
+                        <-                                 <-
+
+_____ ** Diagram ** _____
+┌─────────────────────┐
+│   Claude Desktop    │
+│      (Client)       │
+└──────────┬──────────┘
+           │
+      MCP Request
+           │
+           ▼
+┌─────────────────────┐
+│   Proxy MCP Server  │
+│    (Local Server)   │
+└──────────┬──────────┘
+           │
+      MCP Request
+           │
+           ▼
+┌─────────────────────┐
+│    Remote MCP       │
+│       Server        │
+│   (FastMCP Cloud)   │
+└──────────┬──────────┘
+           │
+      MCP Response
+           │
+           ▼
+┌─────────────────────┐
+│   Proxy MCP Server  │
+│    (Local Server)   │
+└──────────┬──────────┘
+           │
+      MCP Response
+           │
+           ▼
+┌─────────────────────┐
+│   Claude Desktop    │
+│      (Client)       │
+└─────────────────────┘
